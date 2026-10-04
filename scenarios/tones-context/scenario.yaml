@@ -1,0 +1,15 @@
+id: tones-context
+标题: "声调在语境中改变意义"
+learner_level: "beginner"
+objective: "在有意义的点餐语境中听辨并产出目标声调"
+context: "学习者在市场里说明自己要买米，而不是卖米。"
+input: fixture.json
+task: "先预测哪个短语表示买米，再读出一个含有买的新句子。"
+feedback_dimensions:
+  - tone
+  - character
+  - communicative_fit
+revision_prompt: "保留买的第三声，并让短语和市场语境相符。"
+transfer_prompt: "用买描述你在市场里要买的另一种东西。"
+transcript: lesson.md
+license: CC-BY-4.0

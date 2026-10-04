@@ -1,0 +1,15 @@
+{
+  "item_id": "tones-context-1",
+  "segments": [
+    {"id": "buy-rice", "characters": "买米", "pinyin": "mǎi mǐ", "translation": "buy rice"},
+    {"id": "sell-rice", "characters": "卖米", "pinyin": "mài mǐ", "translation": "sell rice"}
+  ],
+  "prompt": "你在市场里想表达 buy rice。先选择正确的短语，再造一个含有买的句子。",
+  "expected_segment": "buy-rice",
+  "response_dimensions": {
+    "tone": "保持买的第三声 mǎi，并听辨卖的第四声 mài",
+    "character": "选择与目标意义对应的汉字",
+    "communicative_fit": "短语适合市场里表达购买意图"
+  },
+  "transfer_prompt": "我去市场买水果。"
+}
